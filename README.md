@@ -1,8 +1,5 @@
 # chip8lab
 
-A **CHIP-8 emulator written from scratch** in the browser (JavaScript).  
-Not a wrapper around another emulator — the CPU, memory, display, timers and keypad are all implemented here.
-
 ## Run
 
 ```sh
@@ -64,4 +61,3 @@ ROMs stay in your browser — nothing is uploaded.
 ## Why CHIP-8?
 
 It’s a tiny 1970s virtual machine (not real hardware): 35 instructions, 4 KB RAM, 16 registers, 64×32 screen — small enough to implement fully, big enough to run Pong, Tetris clones, and more.
-# MEOW
