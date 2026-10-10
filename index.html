@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>chip8</title>
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <input id="rom-file" type="file" accept=".ch8,.c8,.rom,.bin" />
+  <button id="btn-demo" type="button">demo</button>
+  <button id="btn-play" type="button">play</button>
+  <button id="btn-pause" type="button" disabled>pause</button>
+  <button id="btn-reset" type="button">reset</button>
+  <div id="rom-name">no rom</div>
+  <canvas id="screen" width="640" height="320"></canvas>
+  <div id="status">...</div>
+  <div id="keypad"></div>
+  <pre>1 2 3 4
+q w e r
+a s d f
+z x c v</pre>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
